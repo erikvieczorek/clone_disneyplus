@@ -14,8 +14,9 @@
             &__question {
                 color: #fff;
                 font-size: 20px;
-                padding: 24px;
-                display: block;
+                padding: 24px 48px 24px 24px;
+                display: flex;
+                flex-wrap: wrap;
                 cursor: pointer;
                 position: relative;
 
@@ -23,7 +24,7 @@
                     content: '+';
                     position: absolute;
                     top: 0;
-                    right: 24px;
+                    right: 14px;
                     height: 100%;
                     display: flex;
                     align-items: center;
